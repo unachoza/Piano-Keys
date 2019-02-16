@@ -28,10 +28,38 @@ notes.forEach( note => {
 })
 
 // adding audio files
-function play(){
-var audio = new Audio('https://res.cloudinary.com/dh41vh9dx/video/upload/v1538523340/audiocheck.net_sin_400Hz_-3dBFS_3s.wav')
+function playC(){
+var audio = new Audio('https://res.cloudinary.com/dh41vh9dx/video/upload/v1550351595/203479__tesabob2001__c3.mp3')
 audio.play()
 }
+function playA(){
+  var audio = new Audio('https://res.cloudinary.com/dh41vh9dx/video/upload/v1550351888/203458__tesabob2001__a3.mp3')
+  audio.play()
+  }
+  function playG(){
+    var audio = new Audio('https://res.cloudinary.com/dh41vh9dx/video/upload/v1550352021/203493__tesabob2001__g3.mp3')
+    audio.play()
+    }
+    function playB(){
+      var audio = new Audio('https://res.cloudinary.com/dh41vh9dx/video/upload/v1550352148/203463__tesabob2001__b3.mp3')
+      audio.play()
+      }
+      function playE(){
+        var audio = new Audio('https://res.cloudinary.com/dh41vh9dx/video/upload/v1550352222/203470__tesabob2001__e3.mp3')
+        audio.play()
+        }
+        function playF(){
+          var audio = new Audio('https://res.cloudinary.com/dh41vh9dx/video/upload/v1550352328/203468__tesabob2001__f3.mp3')
+          audio.play()
+          }
+          function playD(){
+            var audio = new Audio('https://res.cloudinary.com/dh41vh9dx/video/upload/v1550352546/203486__tesabob2001__d3.mp3')
+            audio.play()
+            }
+            function playMiddleC(){
+              var audio = new Audio('https://res.cloudinary.com/dh41vh9dx/video/upload/v1550352725/203478__tesabob2001__c4-middle-c.mp3 ')
+              audio.play()
+              }
 
   // variables store buttons that progress the user through the lyrics
 let nextOne = document.getElementById('first-next-line');
