@@ -30,7 +30,7 @@ function name(note){
 
 notes.forEach( note => {
   name(note)
-  
+
 })
   // These variables store the buttons that progress the user through the lyrics
 let nextOne = document.getElementById('first-next-line');
@@ -47,11 +47,25 @@ nextThree.hidden = true;
 startOver.hidden= true;
 
 // Write anonymous event handler property and function for the first progress button
+nextOne.onclick = function(){
+  nextTwo.hidden = false
+  nextOne.hidden = true
+  document.getElementById('letter-note-five').innerHTML = 'D'
+  document.getElementById('letter-note-six').innerHTML = 'C'
+}
 
 
 // Write anonymous event handler property and function for the second progress button
 
-
+nextTwo.onclick = function(){
+  nextThree.hidden = false
+  nextTwo.hidden = true
+  lastLyric.display = 'inline-block'
+  document.getElementById('letter-note-three').innerHTML = 'G'
+  document.getElementById('letter-note-four').innerHTML = 'E'
+  document.getElementById('letter-note-five').innerHTML = 'C'
+  document.getElementById('letter-note-six').innerHTML = 'B'
+}
 // Write anonymous event handler property and function for the third progress button
 
 
