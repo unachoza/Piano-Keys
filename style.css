@@ -2,25 +2,29 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: cadetblue;
+    background-image: url("https://res.cloudinary.com/dh41vh9dx/image/upload/v1550866429/purple_music_notes.png")
   }
   .title{
     font-size: 36px;
-    margin-top: 10px;
+    margin-top: 110px;
     margin-bottom: 0px;
     padding: 0;
-    color: #141c3a;
+    color: whitesmoke;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
   }
   #demo{
     text-align: center;
     font-size: 18px;
     margin-top: 15px;
-    color: #141c3a;
+    color: whitesmoke;
     letter-spacing: 1px;
     font-style: italic;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
   }
   .piano{
     width: 305px;
