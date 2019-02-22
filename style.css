@@ -47,7 +47,7 @@ body{
     width: 25px;
     height: 100px;
     display: inline-block;
-    background-color: #141c3a;
+    background-color: black;
     color: white;
     position: absolute;
     margin-left: -12px;
@@ -72,12 +72,15 @@ body{
   }
   #lyrics{
     width: 400px;
-    height: 240px;
+    height: 220px;
     display: block;
     margin: 0 auto;
     padding-left: 20px;
-    margin-top: 50px;
-    background-color: darkblue;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    background-color: #503786;
+    opacity: .9;
+    border-radius: 30px
   }
   #column-one, #column-two, #column-three, #column-four, #column-five, #column-six, #column-optional{
     width: 90px;
